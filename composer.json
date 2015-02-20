@@ -1,0 +1,20 @@
+{
+    "name": "lincsanders/yii_strana_adapter",
+    "description": "Simple Strana adapter for pagination of Yii records",
+    "keywords": ["strana", "yii", "CActiveRecord", "pagination"],
+    "license": "MIT",
+    "require": {
+        "usmanhalalit/strana": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Lincoln Sanderson",
+            "email": "lincoln@paperton.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "YiiStranaAdapter": "src/"
+        }
+    }
+}
