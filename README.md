@@ -4,19 +4,12 @@ Yii record adapter for Strana pagination composer package.
 # Installation
 Include the repository and require in your composer.json file:
 
-    "repositories": [
-        ...
-        {
-            "type": "git",
-            "url": "https://github.com/lincsanders/yii_strana_adapter"
-        },
-        ...
-    ],
     "require": {
-        ...
         "lincsanders/yii_strana_adapter": "dev-master",
         ...
     }
+
+For more info, see https://packagist.org/packages/lincsanders/yii_strana_adapter
 
 # Usage
 The usage is a little clunky, but it works. This is essentially a modified version of the "use your own adapter" example straight from https://github.com/usmanhalalit/strana. Substitute "User::model()" with your own stuff.
