@@ -1,5 +1,5 @@
 # YiiStranaAdapter
-Yii record adapter for Strana pagination composer package
+Yii record adapter for Strana pagination composer package.
 
 # Installation
 Include the repository and require in your composer.json file:
