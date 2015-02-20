@@ -14,7 +14,7 @@ For more info, see https://packagist.org/packages/lincsanders/yii_strana_adapter
 # Usage
 The usage is a little clunky, but it works. This is essentially a modified version of the "use your own adapter" example straight from https://github.com/usmanhalalit/strana. Substitute "User::model()" with your own stuff.
 
-    $strana = new\Strana\Paginator();
+    $strana = new \Strana\Paginator();
     $configHelper = new \Strana\ConfigHelper($strana->perPage(5)->getConfig());
     $adapter = new YiiStranaAdapter(User::model(), $configHelper);
     $paginator = $strana->make(User::model(), $adapter);
